@@ -1,0 +1,28 @@
+// Утилиты
+@import './utils/variables.scss';
+@import './utils/visually-hidden';
+@import './utils/placeholders';
+
+// Базовые стили
+@import './base/base';
+@import './base/reset';
+@import './base/animation';
+
+// Компоненты
+@import './components/container';
+@import './components/typography';
+
+@import './components/logo';
+@import './components/cocials';
+
+@import './components/header';
+@import './components/hero';
+@import './components/features';
+@import './components/about';
+@import './components/team';
+@import './components/clients';
+@import './components/footer';
+@import './components/modal';
+@import './components/portfolio';
+
+

@@ -24,8 +24,8 @@
     />
 
     <!-- base styles -->
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
+    <link rel="stylesheet" href="./css/main.min.css" />
+     </head>
 
   <body>
     <!--heder-->
@@ -63,11 +63,11 @@
 
     <main>
       <!--Наші роботи, сховати-->
-      <section class="section">
+      <section class="portfolio">
         <div class="container">
           <h1 class="visually-hidden">Наші роботи</h1>
 
-          <ul class="portfolio">
+          <ul class="portfolio-list">
             <li class="item"><button type="button" class="portfolio-button">Усі</button></li>
             <li class="item"><button type="button" class="portfolio-button">Веб-сайти</button></li>
             <li class="item"><button type="button" class="portfolio-button">Додатки</button></li>
@@ -280,7 +280,7 @@
     <footer class="footer">
       <div class="container footer-items">
         <div class="address-items">
-          <a href="./index.html" class="logo" lang="en"> <span class="accent">Web</span>Studio</a>
+          <a href="./index.html" class="logo footer-logo" lang="en"> <span class="accent">Web</span>Studio</a>
           <address>
             <ul class="address-footer">
               <li><a href="" class="sity">м. Київ, пр-т Лесі Українки, 26</a></li>
@@ -292,18 +292,18 @@
           </address>
         </div>
 
-        <div class="cocials-footer">
-          <p class="cocials-invyte">приєднуйтесь</p>
+        <div class="cocials__footer">
+          <p class="cocials__invite">приєднуйтесь</p>
           <ul class="cocials">
             <li>
               <a
-                class="cocials-link"
+                class="cocials__link cocials__link--dark"
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Інстаграм"
               >
-                <svg class="cocials-icon" width="20" height="20">
+                <svg class="cocials__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
@@ -311,13 +311,13 @@
 
             <li>
               <a
-                class="cocials-link"
+                class="cocials__link cocials__link--dark"
                 href="https://twitter.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Твіттер"
               >
-                <svg class="cocials-icon" width="20" height="20">
+                <svg class="cocials__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
@@ -325,13 +325,13 @@
 
             <li>
               <a
-                class="cocials-link"
+                class="cocials__link cocials__link--dark"
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Фейсбук"
               >
-                <svg class="cocials-icon" width="20" height="20">
+                <svg class="cocials__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
@@ -339,13 +339,13 @@
 
             <li>
               <a
-                class="cocials-link"
+                class="cocials__link cocials__link--dark"
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Лінкедін"
               >
-                <svg class="cocials-icon" width="20" height="20">
+                <svg class="cocials__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -355,6 +355,7 @@
 
         <div class="footer-form">
           <p class="subscription">Підпишіться на розсилку</p>
+
           <form name="footer_form" autocomplete="on">
             <div class="footer-form-subscription">
               <label>

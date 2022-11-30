@@ -24,7 +24,8 @@
     />
 
     <!-- base styles -->
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  
   </head>
 
   <body>
@@ -63,7 +64,7 @@
 
     <main>
       <!--hero-->
-      <section class="section hero">
+      <section class="hero">
         <div class="hero-content">
           <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="hero-button" data-modal-open>Замовити послугу</button>
@@ -71,54 +72,55 @@
       </section>
 
       <!--Особливості-->
-      <section class="section specifik">
+      <section class="features">
         <div class="container">
           <h2 class="visually-hidden">Особливості</h2>
-          <ul class="specifik-list">
-            <li class="item">
-              <div class="specifik-picture">
+          
+          <ul class="features-list">
+            <li class="features-item">
+              <div class="features-picture">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="specifik-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-              <p class="specifik-text">
+              <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
+              <p class="features-text">
                 Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.
               </p>
             </li>
 
-            <li class="item">
-              <div class="specifik-picture">
+            <li class="features-item">
+              <div class="features-picture">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="specifik-title">ПУНКТУАЛЬНІСТЬ</h3>
-              <p class="specifik-text">
+              <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
+              <p class="features-text">
                 Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.
               </p>
             </li>
 
-            <li class="item">
-              <div class="specifik-picture">
+            <li class="features-item">
+              <div class="features-picture">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="specifik-title">ПЛАНУВАННЯ</h3>
-              <p class="specifik-text">
+              <h3 class="features-title">ПЛАНУВАННЯ</h3>
+              <p class="features-text">
                 Так само консультація з широким активом значною мірою зумовлює.
               </p>
             </li>
 
-            <li class="item">
-              <div class="specifik-picture">
+            <li class="features-item">
+              <div class="features-picture">
                 <svg width="70" height="70">
                   <use href="./images/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="specifik-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-              <p class="specifik-text">
+              <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+              <p class="features-text">
                 Значимість цих проблем настільки очевидна, що реалізація планових завдань.
               </p>
             </li>
@@ -127,49 +129,49 @@
       </section>
 
       <!--Про нас-->
-      <section class="section">
+      <section class="about">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
 
-          <ul class="about">
-            <li class="item">
-              <div class="about-foto">
+          <ul class="about__list">
+            <li>
+              <div class="about__img">
                 <img
                   src="./images/studio/img1.jpg"
                   alt="Десктопні додатки"
                   width="370"
                   height="294"
                 />
-                <div class="about-foto-shadow">
-                  <p>Десктопні додатки</p>
+                <div class="about__overlay">
+                  <p class="about__text">Десктопні додатки</p>
                 </div>
               </div>
             </li>
 
-            <li class="item">
-              <div class="about-foto">
+            <li>
+              <div class="about__img">
                 <img
                   src="./images/studio/img2.jpg"
                   alt="мМобільні додатки"
                   width="370"
                   height="294"
                 />
-                <div class="about-foto-shadow">
-                  <p>Мобільні додатки</p>
+                <div class="about__overlay">
+                  <p class="about__text">Мобільні додатки</p>
                 </div>
               </div>
             </li>
 
-            <li class="item">
-              <div class="about-foto">
+            <li>
+              <div class="about__img">
                 <img
                   src="./images/studio/img3.jpg"
                   alt="Дизайнерські рішення"
                   width="370"
                   height="294"
                 />
-                <div class="about-foto-shadow">
-                  <p>Дизайнерські рішення</p>
+                <div class="about__overlay">
+                  <p class="about__text">Дизайнерські рішення</p>
                 </div>
               </div>
             </li>
@@ -178,11 +180,11 @@
       </section>
 
       <!--Наша команда-->
-      <section class="section our-team">
+      <section class="team">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
-          <ul class="team">
-            <li class="item">
+          <ul class="team__list">
+            <li class="team__item">
               <img
                 src="./images/studio/img-stuf-1.jpg"
                 alt="Ігор Дем'яненко"
@@ -190,19 +192,19 @@
                 height="260"
               />
 
-              <h3 class="team-name">Ігор Дем'яненко</h3>
-              <p class="team-job" lang="en">Product Designer</p>
+              <h3 class="team__name">Ігор Дем'яненко</h3>
+              <p class="team__job" lang="en">Product Designer</p>
 
               <ul class="cocials">
                 <li>
                   <a
-                    class="cocials-link"
+                    class="cocials__link"
                     href="https://www.instagram.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="іконка Інстаграм"
                   >
-                    <svg class="cocials-icon" width="20" height="20">
+                    <svg class="cocials__icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
@@ -210,13 +212,13 @@
 
                 <li>
                   <a
-                    class="cocials-link"
+                    class="cocials__link"
                     href="https://twitter.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="іконка Твіттер"
                   >
-                    <svg class="cocials-icon" width="20" height="20">
+                    <svg class="cocials__icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
@@ -224,13 +226,13 @@
 
                 <li>
                   <a
-                    class="cocials-link"
+                    class="cocials__link"
                     href="https://www.facebook.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="іконка Фейсбук"
                   >
-                    <svg class="cocials-icon" width="20" height="20">
+                    <svg class="cocials__icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
@@ -238,13 +240,13 @@
 
                 <li>
                   <a
-                    class="cocials-link"
+                    class="cocials__link"
                     href="https://www.linkedin.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="іконка Лінкедін"
                   >
-                    <svg class="cocials-icon" width="20" height="20">
+                    <svg class="cocials__icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </a>
@@ -252,7 +254,7 @@
               </ul>
             </li>
 
-            <li class="item">
+            <li class="team__item">
               <img
                 src="./images/studio/img-stuf-2.jpg"
                 alt="Ольга Рєпіна"
@@ -260,18 +262,18 @@
                 height="260"
               />
 
-              <h3 class="team-name">Ольга Рєпіна</h3>
-              <p class="team-job" lang="en">Frontend Developer</p>
+              <h3 class="team__name">Ольга Рєпіна</h3>
+              <p class="team__job" lang="en">Frontend Developer</p>
               <ul class="cocials">
                 <li>
                   <a
-                    class="cocials-link"
+                    class="cocials__link"
                     href="https://www.instagram.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="іконка Інстаграм"
                   >
-                    <svg class="cocials-icon" width="20" height="20">
+                    <svg class="cocials__icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
@@ -279,13 +281,13 @@
 
                 <li>
                   <a
-                    class="cocials-link"
+                    class="cocials__link"
                     href="https://twitter.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="іконка Твіттер"
                   >
-                    <svg class="cocials-icon" width="20" height="20">
+                    <svg class="cocials__icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
@@ -293,13 +295,13 @@
 
                 <li>
                   <a
-                    class="cocials-link"
+                    class="cocials__link"
                     href="https://www.facebook.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="іконка Фейсбук"
                   >
-                    <svg class="cocials-icon" width="20" height="20">
+                    <svg class="cocials__icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
@@ -307,13 +309,13 @@
 
                 <li>
                   <a
-                    class="cocials-link"
+                    class="cocials__link"
                     href="https://www.linkedin.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="іконка Лінкедін"
                   >
-                    <svg class="cocials-icon" width="20" height="20">
+                    <svg class="cocials__icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </a>
@@ -321,7 +323,7 @@
               </ul>
             </li>
 
-            <li class="item">
+            <li class="team__item">
               <img
                 src="./images/studio/img-stuf-3.jpg"
                 alt="Микола Тарасов"
@@ -329,19 +331,19 @@
                 height="260"
               />
 
-              <h3 class="team-name">Микола Тарасов</h3>
-              <p class="team-job" lang="en">Marketing</p>
+              <h3 class="team__name">Микола Тарасов</h3>
+              <p class="team__job" lang="en">Marketing</p>
 
               <ul class="cocials">
                 <li>
                   <a
-                    class="cocials-link"
+                    class="cocials__link"
                     href="https://www.instagram.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="іконка Інстаграм"
                   >
-                    <svg class="cocials-icon" width="20" height="20">
+                    <svg class="cocials__icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
@@ -349,13 +351,13 @@
 
                 <li>
                   <a
-                    class="cocials-link"
+                    class="cocials__link"
                     href="https://twitter.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="іконка Твіттер"
                   >
-                    <svg class="cocials-icon" width="20" height="20">
+                    <svg class="cocials__icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
@@ -363,13 +365,13 @@
 
                 <li>
                   <a
-                    class="cocials-link"
+                    class="cocials__link"
                     href="https://www.facebook.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="іконка Фейсбук"
                   >
-                    <svg class="cocials-icon" width="20" height="20">
+                    <svg class="cocials__icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
@@ -377,13 +379,13 @@
 
                 <li>
                   <a
-                    class="cocials-link"
+                    class="cocials__link"
                     href="https://www.linkedin.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="іконка Лінкедін"
                   >
-                    <svg class="cocials-icon" width="20" height="20">
+                    <svg class="cocials__icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </a>
@@ -391,7 +393,7 @@
               </ul>
             </li>
 
-            <li class="item">
+            <li class="team__item">
               <img
                 src="./images/studio/img-stuf-4.jpg"
                 alt="Михайло Єрмаков"
@@ -399,19 +401,19 @@
                 height="260"
               />
 
-              <h3 class="team-name">Михайло Єрмаков</h3>
-              <p class="team-job" lang="en">PUI Designer</p>
+              <h3 class="team__name">Михайло Єрмаков</h3>
+              <p class="team__job" lang="en">PUI Designer</p>
 
               <ul class="cocials">
                 <li>
                   <a
-                    class="cocials-link"
+                    class="cocials__link"
                     href="https://www.instagram.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="іконка Інстаграм"
                   >
-                    <svg class="cocials-icon" width="20" height="20">
+                    <svg class="cocials__icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                   </a>
@@ -419,13 +421,13 @@
 
                 <li>
                   <a
-                    class="cocials-link"
+                    class="cocials__link"
                     href="https://twitter.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="іконка Твіттер"
                   >
-                    <svg class="cocials-icon" width="20" height="20">
+                    <svg class="cocials__icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-twitter"></use>
                     </svg>
                   </a>
@@ -433,13 +435,13 @@
 
                 <li>
                   <a
-                    class="cocials-link"
+                    class="cocials__link"
                     href="https://www.facebook.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="іконка Фейсбук"
                   >
-                    <svg class="cocials-icon" width="20" height="20">
+                    <svg class="cocials__icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                   </a>
@@ -447,13 +449,13 @@
 
                 <li>
                   <a
-                    class="cocials-link"
+                    class="cocials__link"
                     href="https://www.linkedin.com/"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="іконка Лінкедін"
                   >
-                    <svg class="cocials-icon" width="20" height="20">
+                    <svg class="cocials__icon" width="20" height="20">
                       <use href="./images/icons.svg#icon-linkedin"></use>
                     </svg>
                   </a>
@@ -464,87 +466,91 @@
         </div>
       </section>
 
-      <!--Наші клієнти -->
-      <section class="section clients">
+      <!--Постійні клієнти -->
+      <section class="clients">
         <div class="container">
           <h2 class="section-title">Постійні клієнти</h2>
 
-          <ul class="clients-logo">
-            <li class="item">
+          <ul class="clients__logo">
+            <li>
               <a
-                class="clients-link"
+                class="clients__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Клієнта 1"
               >
-                <svg class="icon-client" width="106" height="60">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client1"></use>
                 </svg>
               </a>
             </li>
-            <li class="item">
+
+            <li>
               <a
-                class="clients-link"
+                class="clients__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Клієнта 2"
               >
-                <svg class="icon-client" width="106" height="60">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client2"></use>
                 </svg>
               </a>
             </li>
 
-            <li class="item">
+            <li>
               <a
-                class="clients-link"
+                class="clients__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Клієнта 3"
               >
-                <svg class="icon-client" width="106" height="60">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client3"></use>
                 </svg>
               </a>
             </li>
-            <li class="item">
+
+            <li>
               <a
-                class="clients-link"
+                class="clients__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Клієнта 4"
               >
-                <svg class="icon-client" width="106" height="60">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client4"></use>
                 </svg>
               </a>
             </li>
-            <li class="item">
+
+            <li>
               <a
-                class="clients-link"
+                class="clients__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Клієнта 5"
               >
-                <svg class="icon-client" width="106" height="60">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client5"></use>
                 </svg>
               </a>
             </li>
-            <li class="item">
+
+            <li>
               <a
-                class="clients-link"
+                class="clients__link"
                 href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Клієнта 6"
               >
-                <svg class="icon-client" width="106" height="60">
+                <svg class="clients__icon" width="106" height="60">
                   <use href="./images/icons.svg#icon-client6"></use>
                 </svg>
               </a>
@@ -558,7 +564,7 @@
     <footer class="footer">
       <div class="container footer-items">
         <div class="address-items">
-          <a href="./index.html" class="logo" lang="en"> <span class="accent">Web</span>Studio</a>
+          <a href="./index.html" class="logo footer-logo" lang="en"> <span class="accent">Web</span>Studio</a>
           <address>
             <ul class="address-footer">
               <li><a href="" class="sity">м. Київ, пр-т Лесі Українки, 26</a></li>
@@ -570,18 +576,18 @@
           </address>
         </div>
 
-        <div class="cocials-footer">
-          <p class="cocials-invyte">приєднуйтесь</p>
+        <div class="cocials__footer">
+          <p class="cocials__invite">приєднуйтесь</p>
           <ul class="cocials">
             <li>
               <a
-                class="cocials-link"
+                class="cocials__link cocials__link--dark"
                 href="https://www.instagram.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Інстаграм"
               >
-                <svg class="cocials-icon" width="20" height="20">
+                <svg class="cocials__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
@@ -589,13 +595,13 @@
 
             <li>
               <a
-                class="cocials-link"
+                class="cocials__link cocials__link--dark"
                 href="https://twitter.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Твіттер"
               >
-                <svg class="cocials-icon" width="20" height="20">
+                <svg class="cocials__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
@@ -603,13 +609,13 @@
 
             <li>
               <a
-                class="cocials-link"
+                class="cocials__link cocials__link--dark"
                 href="https://www.facebook.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Фейсбук"
               >
-                <svg class="cocials-icon" width="20" height="20">
+                <svg class="cocials__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
@@ -617,13 +623,13 @@
 
             <li>
               <a
-                class="cocials-link"
+                class="cocials__link cocials__link--dark"
                 href="https://www.linkedin.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="іконка Лінкедін"
               >
-                <svg class="cocials-icon" width="20" height="20">
+                <svg class="cocials__icon" width="20" height="20">
                   <use href="./images/icons.svg#icon-linkedin"></use>
                 </svg>
               </a>
@@ -633,6 +639,7 @@
 
         <div class="footer-form">
           <p class="subscription">Підпишіться на розсилку</p>
+
           <form name="footer_form" autocomplete="on">
             <div class="footer-form-subscription">
               <label>
