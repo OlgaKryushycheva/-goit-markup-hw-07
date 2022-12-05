@@ -2,11 +2,12 @@
 @import './utils/variables.scss';
 @import './utils/visually-hidden';
 @import './utils/placeholders';
+@import './utils/animation';
+
 
 // Базовые стили
 @import './base/base';
 @import './base/reset';
-@import './base/animation';
 
 // Компоненты
 @import './components/container';
@@ -14,15 +15,17 @@
 
 @import './components/logo';
 @import './components/cocials';
-
-@import './components/header';
-@import './components/hero';
-@import './components/features';
-@import './components/about';
-@import './components/team';
-@import './components/clients';
-@import './components/footer';
 @import './components/modal';
-@import './components/portfolio';
+
+// Секции
+@import './layout/about';
+@import './layout/clients';
+@import './layout/features';
+@import './layout/footer';
+@import './layout/header';
+@import './layout/hero';
+@import './layout/portfolio';
+@import './layout/team';
+
 
 
